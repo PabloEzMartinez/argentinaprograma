@@ -1,0 +1,9 @@
+1.a) devuelve 8
+1.b) devuelve 204
+2.a) el area es de 15cm
+2.b) el area es de 66.25cm
+3.a) 50 grados F equivalen a 10 grados C
+3.b) 75 grados F equivalen a 23.88888888888889 grados C
+4.a) el promedio es 7
+4.b) el promedio es -4.333333333333333
+4.c) el promedio es 0.2666666666666666
