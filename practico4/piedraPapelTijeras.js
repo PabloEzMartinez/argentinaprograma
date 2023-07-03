@@ -1,5 +1,3 @@
-const readlineSync = require("readline-sync");
-let cantidadJugadas = readlineSync.question("En cuantas jugadas desea terminar la partida? ");
 
 function obtenerJugadaComputadora(){
     let jugadaCompu = Math.round(Math.random())+Math.round(Math.random());

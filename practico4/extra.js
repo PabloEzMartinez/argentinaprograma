@@ -1,6 +1,9 @@
 console.log(" ");
 const readlineSync = require("readline-sync");
 let cantidadJugadas = readlineSync.question("En cuantas jugadas desea terminar la partida? ");
+
+console.log(" ");
+console.log("La partida será al mejor de %s.",cantidadJugadas);
 console.log(" ");
 
 function obtenerJugadaComputadora(){
@@ -75,7 +78,7 @@ while(i<=cantidadJugadas){
             empates+=1
             break;
         }
-    if(victoriasCompu==2||victoriasUsuario==2){
+    if(victoriasCompu==(Math.floor(cantidadJugadas/2)+1)||victoriasUsuario==(Math.floor(cantidadJugadas/2)+1)){
         break;
     }
     console.log(" ");
