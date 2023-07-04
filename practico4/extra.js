@@ -25,7 +25,11 @@ function obtenerJugadaComputadora(){
 
 function ObtenerJugadaUsuario(){
     const readlineSync = require("readline-sync");
-    const jugadaElegida = readlineSync.question("Que elijes? ");
+    var jugadaElegida = readlineSync.question("Que elijes? ");
+    if(!(jugadaElegida=="Piedra"||jugadaElegida=="Papel"||jugadaElegida=="Tijeras")){
+        console.log("Error, ingrese nuevamente: Piedra, Papel o Tijeras? ");
+        jugadaElegida=readlineSync.question("Que elijes? ");
+    }
     return jugadaElegida;
 }
 
